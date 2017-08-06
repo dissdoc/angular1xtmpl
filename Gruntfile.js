@@ -10,11 +10,21 @@ module.exports = function(grunt) {
                 src: ['src/css/*.css'],
                 dest: 'build/sttyles.css'
             }
+        },
+
+        uglify: {
+            build: {
+                files: [{
+                    src: 'build/scripts.js',
+                    dest: 'build/scripts.js'
+                }]
+            }
         }
     });
 
     grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
 
-    grunt.registerTask('build', ['concat']);
+    grunt.registerTask('build', ['concat', 'uglify']);
 
 };
