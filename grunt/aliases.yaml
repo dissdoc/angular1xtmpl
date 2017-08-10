@@ -2,3 +2,6 @@ default:
   - 'clean:before'
   - 'concat'
   - 'uglify'
+  - 'htmlbuild'
+  - 'injector'
+  - 'clean:after'

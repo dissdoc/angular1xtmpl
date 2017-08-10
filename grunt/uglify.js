@@ -1,10 +1,12 @@
-module.exports = {
+module.exports = function(grunt) {
 
-    build: {
-        files: [{
-            src: 'build/scripts.js',
-            dest: 'build/scripts.js'
-        }]
+    return {
+        build: {
+            files: [{
+                src: 'build/scripts.js',
+                dest: 'build/scripts.<%= version %>.js'
+            }]
+        }
     }
 
 };

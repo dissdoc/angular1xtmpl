@@ -1,5 +1,6 @@
 module.exports = {
 
-    before: ['build']
+    before: ['build'],
+    after: ['build/scripts.js']
 
 };
