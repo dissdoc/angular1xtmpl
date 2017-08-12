@@ -2,6 +2,9 @@ default:
   - 'clean:before'
   - 'concat'
   - 'uglify'
-  - 'htmlbuild'
-  - 'injector'
+  - 'htmlbuild:dist'
   - 'clean:after'
+
+debug:
+  - 'clean:dev_before'
+  - 'htmlbuild:debug'

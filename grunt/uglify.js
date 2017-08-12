@@ -4,7 +4,7 @@ module.exports = function(grunt) {
         build: {
             files: [{
                 src: 'build/scripts.js',
-                dest: 'build/scripts.<%= version %>.js'
+                dest: 'build/js/scripts.<%= version %>.js'
             }]
         }
     }
