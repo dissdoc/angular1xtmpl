@@ -12,4 +12,5 @@ debug:
   - 'htmlbuild:debug'
 
 realtime:
+  - 'express'
   - 'watch'

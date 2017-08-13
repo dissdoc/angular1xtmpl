@@ -31,7 +31,7 @@ module.exports = function(grunt) {
                 relative: true,
                 scripts: {
                     prod: [
-                        'src/js/**/*.js'
+                        'debug/js/**/*.js'
                     ]
                 },
                 styles: {

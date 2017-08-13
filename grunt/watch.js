@@ -1,6 +1,9 @@
 module.exports = {
 
+    options: {
+        livereload: true
+    },
     files: ['src/css/*.less', 'src/js/**/*.js'],
-    tasks: ['less:debug', 'htmlbuild:debug']
+    tasks: ['copy:debug', 'less:debug', 'htmlbuild:debug']
 
 };
