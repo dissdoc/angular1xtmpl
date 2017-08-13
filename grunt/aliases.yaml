@@ -1,5 +1,6 @@
 default:
   - 'clean:before'
+  - 'less:dist'
   - 'concat'
   - 'uglify'
   - 'htmlbuild:dist'
@@ -7,4 +8,5 @@ default:
 
 debug:
   - 'clean:dev_before'
+  - 'less:debug'
   - 'htmlbuild:debug'

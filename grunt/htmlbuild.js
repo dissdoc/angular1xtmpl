@@ -36,7 +36,7 @@ module.exports = function(grunt) {
                 },
                 styles: {
                     prod: [
-                        'src/css/*.css'
+                        'debug/*.css'
                     ]
                 }
             }
