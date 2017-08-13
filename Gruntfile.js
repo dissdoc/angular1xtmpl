@@ -7,11 +7,12 @@
  * + Render html file by template
  * + Remove bad files from build directory
  * + build style files less
- * build html by fast template like as jade
+ * build html by fast template like as jade?
  * + watching changes in files
  * + load by hotspot
  * load server mock
- * include angular js
+ * + include angular js
+ * add angular simple application
  * build angular templates
  * build templates angular from each directory
  * check code by jslint
