@@ -3,12 +3,14 @@ default:
   - 'less:dist'
   - 'concat'
   - 'uglify'
+  - 'copy:dist'
   - 'htmlbuild:dist'
   - 'clean:after'
 
 debug:
   - 'clean:dev_before'
   - 'less:debug'
+  - 'copy:debug'
   - 'htmlbuild:debug'
 
 realtime:
