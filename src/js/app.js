@@ -1,5 +1,8 @@
-var test = function() {
-    console.log('test function etsd');
-};
+'use strict';
 
-test();
+angular.module('dissdoc', [
+
+])
+    .config(['$urlRouterProvider', function($urlRouterProvider) {
+        $urlRouterProvider.otherwise('/');
+    }]);
