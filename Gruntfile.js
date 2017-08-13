@@ -8,7 +8,7 @@
  * + Remove bad files from build directory
  * + build style files less
  * build html by fast template like as jade
- * watching changes in files
+ * + watching changes in files
  * load by hotspot
  * load server mock
  * include angular js

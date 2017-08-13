@@ -10,3 +10,6 @@ debug:
   - 'clean:dev_before'
   - 'less:debug'
   - 'htmlbuild:debug'
+
+realtime:
+  - 'watch'
